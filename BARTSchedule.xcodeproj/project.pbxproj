@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E8CA8D1A2E9DA300F95319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CA8C1A2E9DA300F95319 /* main.m */; };
+		36E8CA901A2E9DA300F95319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CA8F1A2E9DA300F95319 /* AppDelegate.m */; };
+		36E8CA931A2E9DA300F95319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CA921A2E9DA300F95319 /* ViewController.m */; };
+		36E8CA961A2E9DA300F95319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E8CA941A2E9DA300F95319 /* Main.storyboard */; };
+		36E8CA981A2E9DA300F95319 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E8CA971A2E9DA300F95319 /* Images.xcassets */; };
+		36E8CA9B1A2E9DA300F95319 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E8CA991A2E9DA300F95319 /* LaunchScreen.xib */; };
+		36E8CAA71A2E9DA400F95319 /* BARTScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CAA61A2E9DA400F95319 /* BARTScheduleTests.m */; };
+		36E8CAB41A2EDEDE00F95319 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 36E8CAB11A2EDEDE00F95319 /* LICENSE */; };
+		36E8CAB51A2EDEDE00F95319 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CAB31A2EDEDE00F95319 /* SMXMLDocument.m */; };
+		36E8CAB81A2EE0C000F95319 /* RouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CAB71A2EE0C000F95319 /* RouteManager.m */; };
+		36E8CABB1A2EF19800F95319 /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CABA1A2EF19800F95319 /* ScheduleTableViewController.m */; };
+		36E8CABE1A2EF6B700F95319 /* TripInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CABD1A2EF6B700F95319 /* TripInfo.m */; };
+		36E8CAC21A2F920A00F95319 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CAC11A2F920A00F95319 /* ConnectionManager.m */; };
+		36E8CAC51A2FD35800F95319 /* TripInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8CAC41A2FD35800F95319 /* TripInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E8CAA11A2E9DA400F95319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E8CA7F1A2E9DA300F95319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E8CA861A2E9DA300F95319;
+			remoteInfo = BARTSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36E8CA871A2E9DA300F95319 /* BARTSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BARTSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E8CA8B1A2E9DA300F95319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E8CA8C1A2E9DA300F95319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36E8CA8E1A2E9DA300F95319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36E8CA8F1A2E9DA300F95319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36E8CA911A2E9DA300F95319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36E8CA921A2E9DA300F95319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36E8CA951A2E9DA300F95319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36E8CA971A2E9DA300F95319 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36E8CA9A1A2E9DA300F95319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36E8CAA01A2E9DA400F95319 /* BARTScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BARTScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E8CAA51A2E9DA400F95319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E8CAA61A2E9DA400F95319 /* BARTScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BARTScheduleTests.m; sourceTree = "<group>"; };
+		36E8CAB11A2EDEDE00F95319 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		36E8CAB21A2EDEDE00F95319 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		36E8CAB31A2EDEDE00F95319 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		36E8CAB61A2EE0C000F95319 /* RouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteManager.h; sourceTree = "<group>"; };
+		36E8CAB71A2EE0C000F95319 /* RouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteManager.m; sourceTree = "<group>"; };
+		36E8CAB91A2EF19800F95319 /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		36E8CABA1A2EF19800F95319 /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
+		36E8CABC1A2EF6B700F95319 /* TripInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripInfo.h; sourceTree = "<group>"; };
+		36E8CABD1A2EF6B700F95319 /* TripInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripInfo.m; sourceTree = "<group>"; };
+		36E8CABF1A2F8EC100F95319 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		36E8CAC01A2F920A00F95319 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		36E8CAC11A2F920A00F95319 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		36E8CAC31A2FD35800F95319 /* TripInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripInfoViewController.h; sourceTree = "<group>"; };
+		36E8CAC41A2FD35800F95319 /* TripInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E8CA841A2E9DA300F95319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E8CA9D1A2E9DA400F95319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E8CA7E1A2E9DA300F95319 = {
+			isa = PBXGroup;
+			children = (
+				36E8CA891A2E9DA300F95319 /* BARTSchedule */,
+				36E8CAA31A2E9DA400F95319 /* BARTScheduleTests */,
+				36E8CA881A2E9DA300F95319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E8CA881A2E9DA300F95319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CA871A2E9DA300F95319 /* BARTSchedule.app */,
+				36E8CAA01A2E9DA400F95319 /* BARTScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36E8CA891A2E9DA300F95319 /* BARTSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CAB01A2EDEDE00F95319 /* XMLDocument */,
+				36E8CA8E1A2E9DA300F95319 /* AppDelegate.h */,
+				36E8CA8F1A2E9DA300F95319 /* AppDelegate.m */,
+				36E8CA911A2E9DA300F95319 /* ViewController.h */,
+				36E8CA921A2E9DA300F95319 /* ViewController.m */,
+				36E8CA941A2E9DA300F95319 /* Main.storyboard */,
+				36E8CA971A2E9DA300F95319 /* Images.xcassets */,
+				36E8CA991A2E9DA300F95319 /* LaunchScreen.xib */,
+				36E8CA8A1A2E9DA300F95319 /* Supporting Files */,
+				36E8CAB61A2EE0C000F95319 /* RouteManager.h */,
+				36E8CAB71A2EE0C000F95319 /* RouteManager.m */,
+				36E8CAB91A2EF19800F95319 /* ScheduleTableViewController.h */,
+				36E8CABA1A2EF19800F95319 /* ScheduleTableViewController.m */,
+				36E8CABC1A2EF6B700F95319 /* TripInfo.h */,
+				36E8CABD1A2EF6B700F95319 /* TripInfo.m */,
+				36E8CABF1A2F8EC100F95319 /* Constant.h */,
+				36E8CAC01A2F920A00F95319 /* ConnectionManager.h */,
+				36E8CAC11A2F920A00F95319 /* ConnectionManager.m */,
+				36E8CAC31A2FD35800F95319 /* TripInfoViewController.h */,
+				36E8CAC41A2FD35800F95319 /* TripInfoViewController.m */,
+			);
+			path = BARTSchedule;
+			sourceTree = "<group>";
+		};
+		36E8CA8A1A2E9DA300F95319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CA8B1A2E9DA300F95319 /* Info.plist */,
+				36E8CA8C1A2E9DA300F95319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36E8CAA31A2E9DA400F95319 /* BARTScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CAA61A2E9DA400F95319 /* BARTScheduleTests.m */,
+				36E8CAA41A2E9DA400F95319 /* Supporting Files */,
+			);
+			path = BARTScheduleTests;
+			sourceTree = "<group>";
+		};
+		36E8CAA41A2E9DA400F95319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CAA51A2E9DA400F95319 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36E8CAB01A2EDEDE00F95319 /* XMLDocument */ = {
+			isa = PBXGroup;
+			children = (
+				36E8CAB11A2EDEDE00F95319 /* LICENSE */,
+				36E8CAB21A2EDEDE00F95319 /* SMXMLDocument.h */,
+				36E8CAB31A2EDEDE00F95319 /* SMXMLDocument.m */,
+			);
+			path = XMLDocument;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36E8CA861A2E9DA300F95319 /* BARTSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E8CAAA1A2E9DA400F95319 /* Build configuration list for PBXNativeTarget "BARTSchedule" */;
+			buildPhases = (
+				36E8CA831A2E9DA300F95319 /* Sources */,
+				36E8CA841A2E9DA300F95319 /* Frameworks */,
+				36E8CA851A2E9DA300F95319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BARTSchedule;
+			productName = BARTSchedule;
+			productReference = 36E8CA871A2E9DA300F95319 /* BARTSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36E8CA9F1A2E9DA400F95319 /* BARTScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E8CAAD1A2E9DA400F95319 /* Build configuration list for PBXNativeTarget "BARTScheduleTests" */;
+			buildPhases = (
+				36E8CA9C1A2E9DA400F95319 /* Sources */,
+				36E8CA9D1A2E9DA400F95319 /* Frameworks */,
+				36E8CA9E1A2E9DA400F95319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36E8CAA21A2E9DA400F95319 /* PBXTargetDependency */,
+			);
+			name = BARTScheduleTests;
+			productName = BARTScheduleTests;
+			productReference = 36E8CAA01A2E9DA400F95319 /* BARTScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36E8CA7F1A2E9DA300F95319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Xuhui Chen";
+				TargetAttributes = {
+					36E8CA861A2E9DA300F95319 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					36E8CA9F1A2E9DA400F95319 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 36E8CA861A2E9DA300F95319;
+					};
+				};
+			};
+			buildConfigurationList = 36E8CA821A2E9DA300F95319 /* Build configuration list for PBXProject "BARTSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36E8CA7E1A2E9DA300F95319;
+			productRefGroup = 36E8CA881A2E9DA300F95319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36E8CA861A2E9DA300F95319 /* BARTSchedule */,
+				36E8CA9F1A2E9DA400F95319 /* BARTScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36E8CA851A2E9DA300F95319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8CA961A2E9DA300F95319 /* Main.storyboard in Resources */,
+				36E8CA9B1A2E9DA300F95319 /* LaunchScreen.xib in Resources */,
+				36E8CAB41A2EDEDE00F95319 /* LICENSE in Resources */,
+				36E8CA981A2E9DA300F95319 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E8CA9E1A2E9DA400F95319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E8CA831A2E9DA300F95319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8CAC51A2FD35800F95319 /* TripInfoViewController.m in Sources */,
+				36E8CA931A2E9DA300F95319 /* ViewController.m in Sources */,
+				36E8CAC21A2F920A00F95319 /* ConnectionManager.m in Sources */,
+				36E8CA901A2E9DA300F95319 /* AppDelegate.m in Sources */,
+				36E8CABB1A2EF19800F95319 /* ScheduleTableViewController.m in Sources */,
+				36E8CAB81A2EE0C000F95319 /* RouteManager.m in Sources */,
+				36E8CAB51A2EDEDE00F95319 /* SMXMLDocument.m in Sources */,
+				36E8CABE1A2EF6B700F95319 /* TripInfo.m in Sources */,
+				36E8CA8D1A2E9DA300F95319 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E8CA9C1A2E9DA400F95319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8CAA71A2E9DA400F95319 /* BARTScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36E8CAA21A2E9DA400F95319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E8CA861A2E9DA300F95319 /* BARTSchedule */;
+			targetProxy = 36E8CAA11A2E9DA400F95319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36E8CA941A2E9DA300F95319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E8CA951A2E9DA300F95319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36E8CA991A2E9DA300F95319 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E8CA9A1A2E9DA300F95319 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36E8CAA81A2E9DA400F95319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36E8CAA91A2E9DA400F95319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36E8CAAB1A2E9DA400F95319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BARTSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36E8CAAC1A2E9DA400F95319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BARTSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36E8CAAE1A2E9DA400F95319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BARTScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BARTSchedule.app/BARTSchedule";
+			};
+			name = Debug;
+		};
+		36E8CAAF1A2E9DA400F95319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BARTScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BARTSchedule.app/BARTSchedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E8CA821A2E9DA300F95319 /* Build configuration list for PBXProject "BARTSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E8CAA81A2E9DA400F95319 /* Debug */,
+				36E8CAA91A2E9DA400F95319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E8CAAA1A2E9DA400F95319 /* Build configuration list for PBXNativeTarget "BARTSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E8CAAB1A2E9DA400F95319 /* Debug */,
+				36E8CAAC1A2E9DA400F95319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36E8CAAD1A2E9DA400F95319 /* Build configuration list for PBXNativeTarget "BARTScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E8CAAE1A2E9DA400F95319 /* Debug */,
+				36E8CAAF1A2E9DA400F95319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36E8CA7F1A2E9DA300F95319 /* Project object */;
+}
